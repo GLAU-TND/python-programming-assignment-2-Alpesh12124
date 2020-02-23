@@ -1,0 +1,11 @@
+w=bin(int(input()))
+b=1
+c=0
+for i in range(len(w)-3):
+    if a[i+2]==a[i+3]:
+        w+=1
+    else:
+        c=max(c,b)
+        w=1
+        continue
+print(c)
